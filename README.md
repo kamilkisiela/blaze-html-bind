@@ -2,7 +2,7 @@
 
 
 ```js
-specialChars = '&gt;';
+specialChars = '&gt; &lt;';
 ```
 
 ```html
@@ -12,11 +12,11 @@ specialChars = '&gt;';
 will display:
 
 ```html
-&gt;
+&gt; &lt;
 ```
 
 instead of:
 
 ```html
->
+> <
 ```

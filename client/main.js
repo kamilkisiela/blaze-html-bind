@@ -4,9 +4,9 @@ import './main.html';
 
 Template.hello.helpers({
   raw() {
-    return '>';
+    return '> < ';
   },
   escaped() {
-    return '&gt;';
+    return '&gt; &lt;';
   }
 });
